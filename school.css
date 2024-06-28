@@ -1,0 +1,151 @@
+.slider{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 50px;
+}
+.slides{
+	display: flex;
+	transition: transform 1s ease-in-out;
+}
+.slides img{
+	width: 100%;
+	display: block;
+}
+.header{
+	background-color: lightblue;
+	width: 100%;
+	height: 150px;
+	border-radius: 15px;
+	float: right;
+	margin-left: 20px;
+	border: 2px solid black;
+}
+.header a{
+	float: right;
+	font-size: 25px;
+	color: dimgray;
+	text-decoration: none;
+	margin-right: 100px;
+	margin-top: 62px;
+	transition: 1s;
+	transition-duration: 1s;
+}
+.header a:hover{
+	box-shadow: 0 0 50px 15px white;
+}
+.img_sc{
+	position: absolute;
+	top: 150px;
+	width: 100%;
+	height: 431px;
+}
+.text{
+	background-color: lightblue;
+	border-radius: 25px;
+	font-size: 30px;
+	color: white;
+	width: 70%;
+	height: 500px;
+	margin-left: 15%;
+	text-align: center;
+	padding: 25px;
+	color: dimgray;
+}
+body{
+	background-color: #c7c7c7;
+}
+.text1{
+	background-color: lightblue;
+	border-radius: 25px;
+	font-size: 25px;
+	color: white;
+	width: 95%;
+	height:2100px;
+	margin-left: 2%;
+	text-align: center;
+	padding: 25px;
+	color: dimgray;
+}
+.teach{
+	float: left;
+	width: 30%;
+	height: 550px;
+	margin-left: 2.5%;
+}
+.po2l{
+	background-color: lightblue;
+	border: 1px solid black;
+	margin-top: 50px;
+	width: 96.1%;
+	height: 250px;
+	border-radius: 50px 50px 0 0;
+	padding: 50px;
+}
+.po2l button{
+	color: ;
+	border-radius: 15px;
+	background: linear-gradient(45deg, #4fd6ff, #3068ff);
+	width: 20%;
+	height: 50px;
+	margin-left: 40%;
+	text-align: center;
+	margin-top: 125px;
+	font-size: 25px;
+	transition: 1s;
+	transition-duration: 1s;
+}
+.po2l button:hover{
+	box-shadow: 0 0 50px 15px white;
+}
+.cources{
+	width: 100%;
+	height: 800px;
+	background-color: #4fd6ff;
+	float: left;
+}
+.cource{
+	margin-top: 50px;
+	float: left;
+	width: 20%;
+	height: 500px;
+	margin-left: 4%;
+	text-align: left;
+	font-size: 15px;
+	background-color: #fff2f2;
+	border: 0 5px solid #fff5f5;
+}
+.cource img{
+	width: 96%;
+	height: 300px;
+	margin-left: 2%;
+	margin-top: 5px;
+}
+.cont{
+	font-size: 25px;
+	width: 90%;
+	height: 1200px;
+	margin-left: 5%;
+	background: linear-gradient(45deg, #20d6ff, #3068ff);
+}
+.cont div{
+	color: white;
+	text-align: center;
+	border: 5px solid black;
+	width: 30%;
+	height: 955px;
+	margin-top: 50px;
+	margin-left: 2.5%;
+	float: left;
+}
+.header2{
+	float: left;
+	width: 125px;
+	height: 125px;
+}
+.header2 img{
+	width: 125px;
+	height: 125px;
+	position: absolute;
+	left: 50px;
+	top: 12.5px;
+}
